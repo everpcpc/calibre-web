@@ -185,6 +185,9 @@ table .bg-dark-danger a { color: #fff; }
   -webkit-box-shadow: 0 5px 8px -6px #777;
   -moz-box-shadow: 0 5px 8px -6px #777;
   box-shadow: 0 5px 8px -6px #777;
+
+  -o-object-fit: cover;
+  object-fit: cover
 }
 
 .container-fluid .book .meta { margin-top: 10px; }
