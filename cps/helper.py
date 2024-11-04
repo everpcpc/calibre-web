@@ -906,7 +906,7 @@ def save_cover(img, book_path):
             else:
                 imgc = Image(blob=io.BytesIO(img.content))
             imgc.format = 'jpeg'
-            imgc.transform_colorspace("rgb")
+            # imgc.transform_colorspace("rgb")
             img = imgc
         except (BlobError, MissingDelegateError):
             log.error("Invalid cover file content")
